@@ -195,6 +195,7 @@ function w3_close() {
 	
 function copyText(tField) {
   /* Get the text field */
+	alert(tField);
   var tfid = tField;
   var copyText = document.getElementById(tfid);
 
@@ -218,7 +219,6 @@ function textFieldMsg(){
 }
 
 function showAndShrink(el){
-	alert(el);
 	var elem = document.getElementById(el); 
 	elem.style.display = 'block';
   	var sSize = 100;
