@@ -77,8 +77,9 @@ img {margin-bottom: -7px}
 				  <a href="/v_portfolio/pages/vc_home.php">
 				  <img src="branding_icons/vc_logotype.svg" alt="Viscid Creates Logo" style="width: 90%" />
 				  </a>
-				</div><div class="w3-bar-item w3-text-gray w3-twothird"><p><a href="/v_portfolio/pages/vc_home.php">Viscid Creates</a> represents a practice project to deepen and apply my knowledge of some raw coding skills. <span class="w3-text-theme" style="font-style: italic">Note: Viscid Creates is purely experimental and about 85% functional.</span></p>
+				</div><div class="w3-bar-item w3-text-gray w3-twothird"><p><a href="/v_portfolio/pages/vc_home.php">Viscid Creates</a> represents a practice project to deepen and apply my knowledge of some raw coding skills.</p>
 			  <p>It is built using PHP with MySQL/PDO, HTML5 with W3-CSS for responsive styling, and mostly Javascript with a touch of Angular and jQuery* where it made things simpler.</p>
+			  <p><span class="w3-text-theme" style="font-style: italic">Note: Viscid Creates is experimental and about 85% functional.</span></p>
 			  <p style="font-style: italic; font-size: 85%">*Credit to the originators of the modified code I used is in the comments.</p>
 			  </div>
 		  </div>	
@@ -89,7 +90,7 @@ img {margin-bottom: -7px}
   <div id="About" class="w3-container section" style="display:none">
     <h2>About</h2>
 	<div class="w3-theme w3-padding w3-card" style="font-weight: 400; font-size: 115%">
-		<p>I am a dad, an artist, a writer, a librarian, a web coder, a casual gamer, and just the right kind of neurotic that I can masquerade as being disciplined and occasionally appear organized.</p>
+		<p>I am a dad, an artist, a writer, a librarian, a web coder, a casual gamer, and just the right kind of neurotic that I can function as if naturally disciplined and organized.</p>
 		<p><a href="Documents/bmcfadden_resume_summer2019.pdf" target="_blank">Resume</a></p>
 	  </div>
 	  <div id="AboutDiv">
@@ -113,7 +114,7 @@ img {margin-bottom: -7px}
 						<li>Adobe Illustrator</li>
 						<li>Autodesk Sketchbook Pro</li>
 						<li>Inkscape</li>
-						<li>Supplemental 3D graphics using Sketchup &amp; Blender</li>
+						<li>Sketchup &amp; Blender for supplemental 3D graphics</li>
 						</ul>
 					  <p>Check out samples of my work at:</p>
 						 	<ul>
@@ -128,7 +129,7 @@ img {margin-bottom: -7px}
   <div id="Contact" class="w3-container section" style="display:none">
     <h2>Contact Me!</h2>
     <div class="w3-theme w3-padding w3-card" style="font-weight: 400; font-size: 115%">
-		<p>Contact me! Please feel free to reach out with questions about my work, my experience, and/or to discuss what makes a movie or show a musical and opinions on when it is and is not acceptable for characters in any work to break into song.</p>
+		<p>Contact me! Please feel free to reach out with questions about my work, my experience, and/or to discuss when it is and is not acceptable for characters in movies to break into song.</p>
 	  </div>
 	  	<div id="contactDiv">
 		<div class="w3-border-bottom w3-border-right w3-padding" style="margin-top: 8px; position: relative">
@@ -244,7 +245,17 @@ function showAndShrink(el){
 	var elem = document.getElementById(el); 
 	elem.style.display = 'block';
   	var sSize = 100;
-  	var id = setInterval(frame, 10);
+	
+	var dw = window.screen.width;
+	
+		if( dw > 600 ) {
+			var fint = dw/60;			
+		}
+		else{
+			var fint = 10;
+		}
+	
+  	var id = setInterval(frame, fint);
   	function frame() {
     	if (sSize < 15) {
       		clearInterval(id);
