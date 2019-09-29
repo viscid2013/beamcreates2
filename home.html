@@ -30,11 +30,11 @@ img {margin-bottom: -7px}
 <div id="sideNav" class="w3-sidebar w3-white w3-text-gray w3-padding w3-hide-small">
 	<ul>
 		<li>Home</li>
-		<li onMouseOver="showSub();">
+		<li onMouseOver="showSub();" onMouseOut="hideSub();" style="cursor: pointer">
 			Skills &gt;
-				<li class="subNav w3-text-gray">&gt;graphic</li>
-				<li class="subNav w3-text-gray">&gt;web</li>
-				<li class="subNav w3-text-gray">&gt;project management</li>				
+				<li class="subNav w3-text-gray">&#124; graphic</li>
+				<li class="subNav w3-text-gray">&#124; web</li>
+				<li class="subNav w3-text-gray">&#124; project management</li>				
 
 		</li>
 		<li>Contact</li>
@@ -75,6 +75,13 @@ function showSub(){
 	var subL = subs.length;
 	for( var s = 0; s < subL; s++ ){
 		subs[s].style.display = "block";
+	}
+}
+function hideSub(){
+	var subs = document.getElementsByClassName("subNav");
+	var subL = subs.length;
+	for( var s = 0; s < subL; s++ ){
+		subs[s].style.display = "none";
 	}
 }
 	
