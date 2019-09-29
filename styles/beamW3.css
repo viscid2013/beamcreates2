@@ -32,10 +32,12 @@ body{
 #topBar{
 	
 }
+#sideNav{
+	width: 50%;
+}
 
 #sideNav ul{
 	list-style: none;
-	width: 50%;
 }
 
 .subNav{
