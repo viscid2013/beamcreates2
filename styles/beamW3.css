@@ -35,12 +35,12 @@ body{
 
 #sideNav ul{
 	list-style: none;
-	min-width: 35%;
+	min-width: 45%;
 }
 
 .subNav{
 	margin-left: 20px;
-	font-size: 85%;
+	font-size: 80%;
 }
 
 #mainContent {
