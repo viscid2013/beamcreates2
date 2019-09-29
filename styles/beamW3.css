@@ -33,7 +33,7 @@ body{
 	
 }
 #sideNav{
-	width: 50%;
+	max-width: 33%;
 }
 
 #sideNav ul{
