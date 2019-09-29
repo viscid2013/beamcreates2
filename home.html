@@ -27,14 +27,14 @@ img {margin-bottom: -7px}
 	<a href="javascript:void(0)" class="w3-button w3-padding-16 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
 </div>
 <!-- side menu for desktop -->
-<div id="sideNav" class="w3-sidebar w3-white w3-text-gray w3-padding">
+<div id="sideNav" class="w3-sidebar w3-white w3-text-gray w3-padding w3-hide-small">
 	<ul>
 		<li>Home</li>
-		<li>
+		<li onMouseOver="showSub();">
 			Skills &gt;
-				<li class="subNav w3-text-gray">graphic</li>
-				<li class="subNav w3-text-gray">web</li>
-				<li class="subNav w3-text-gray">project management</li>				
+				<li class="subNav w3-text-gray">&gt;graphic</li>
+				<li class="subNav w3-text-gray">&gt;web</li>
+				<li class="subNav w3-text-gray">&gt;project management</li>				
 
 		</li>
 		<li>Contact</li>
@@ -70,6 +70,14 @@ img {margin-bottom: -7px}
 	
 <script>
 
+function showSub(){
+	var subs = document.getElementsByClassName("subNav");
+	var subL = subs.length;
+	for( var s = 0; s < subL; s++ ){
+		subs[s].style.display = "block";
+	}
+}
+	
 	
 </script>
 	
