@@ -21,254 +21,36 @@ img {margin-bottom: -7px}
 </head>
 
 <body>
-
-
-<!-- Top Menu (large and medium screens) -->
-<nav id="mainMenu" class="w3-bar w3-theme-grey w3-top w3-hide-small w3-card" style="z-index: 3;">
-	<div class="w3-bar-item" style="padding-top: 2px; padding-bottom: 4px">
-		<a href="home.html"><img src="branding_icons/BC_logo_hor_smallest.png" style="margin: 2px;" /></a>
-	</div>
-    <button class="w3-bar-item w3-mobile w3-button tablink" onclick="openCity(event,'Home')">Home</button>
-    <button class="w3-bar-item w3-mobile w3-button tablink" onclick="openCity(event,'About')">About</button>
-	<button class="w3-bar-item w3-mobile w3-button tablink" onclick="openCity(event,'Contact')">Contact</button>
-	<div class="w3-bar-item w3-mobile">
-		<a href="mailto: viscid07@gmail.com">Ben McFadden</a>&nbsp;|&nbsp;
-		<a href="Documents/bmcfadden_resume_summer2019.pdf" target="_blank">Resume</a>
-	</div>
-  </nav>
+<!-- top bar -->
+<div id="topBar" class="w3-top w3-theme w3-padding">
+	<a href="">BeAm Creates</a>
+	<a href="javascript:void(0)" class="w3-button w3-padding-16 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</div>
+<!-- side menu for desktop -->
+<div id="sideNav" class="w3-sidebar w3-white w3-opacity">
+	<ul>
+		<li>Home</li>
+		<li>
+			Skills >
+			<ul>
+				<li>graphic</li>
+				<li>web</li>
+				<li>project management</li>				
+			</ul>
+		</li>
+		<li>Contact</li>
+		<li>Career</li>
+	</ul>	
+</div>
+<!-- Main content -->
+<div id="mainContent" class="w3-white w3-padding">
+	<h3>Home Sweet Home</h3>
+This is the main content, yo.	
+</div>
 	
-<!-- Sidebar (small screens) -->
-<nav id="sideMenu" class="w3-sidebar w3-theme-grey w3-top w3-hide-medium w3-hide-large w3-animate-left" style="z-index: 3;">
-    <button class="w3-bar-item w3-mobile w3-button tablink" onclick="openCity(event,'Home'); w3_close()">Home</button>
-    <button class="w3-bar-item w3-mobile w3-button tablink" onclick="openCity(event,'About'); w3_close()">About</button>
-	<button class="w3-bar-item w3-mobile w3-button tablink" onclick="openCity(event,'Contact'); w3_close()">Contact</button>
-	<button class="w3-bar-item w3-mobile w3-button w3-hide-large w3-hide-medium" onclick="w3_close(); w3_close()">Close Menu</button>
-  </nav>
- 
-<!-- Top menu on small screens -->
-<header class="w3-bar w3-top w3-hide-large w3-hide-medium w3-theme-grey w3-large w3-card">
-  
-	  <div class="w3-bar-item w3-padding w3-left">
-		  <a href="javascript:void(0)" class="w3-button w3-padding-16 w3-left w3-margin-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
-		  <a href="home.html"><img src="branding_icons/BC_logo_hor_smallest.png" style="margin: 10px;" /></a></div>
-</header>
-
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
-
-  <!-- Push down content on small screens -->
-  <div id="topSpace"></div>
 	
-<div class="w3-row">
-	
-		<!--<div class="w3-third w3-center">
-	<img id="mainLogo" src="branding_icons/BC_logo_v2_PNG.png" alt="be am logo" />
-	</div>-->
-	
-  <div id="Home" class="w3-container section">
-    <h2>Home</h2>
-	<div class="w3-theme w3-padding w3-card" style="font-weight: 400; font-size: 115%">
-	  <p>Hi! I'm Ben McFadden, and BeAm Creates is my online portfolio and learning labratory for my graphic design and web coding work.</p>
-		<p>Below you'll find a list of my current and upcoming projects.</p>
-	  </div>
-	  <div id="homeProjectsDiv">
-		  <div class="w3-bar w3-border-bottom w3-border-right projectDiv" style="margin-top: 10px;">
-			  <div class="w3-bar-item w3-third">
-				  <a href="/v_portfolio/pages/vc_home.php">
-				  <img src="branding_icons/vc_logotype.svg" alt="Viscid Creates Logo" style="width: 90%" />
-				  </a>
-				</div><div class="w3-bar-item w3-text-gray w3-twothird"><p><a href="/v_portfolio/pages/vc_home.php">Viscid Creates</a> represents a practice project to deepen and apply my knowledge of some raw coding skills.</p>
-			  <p>It is built using PHP with MySQL/PDO, HTML5 with W3-CSS for responsive styling, and mostly Javascript with a touch of Angular and jQuery* where it made things simpler.</p>
-			  <p><span class="w3-text-theme" style="font-style: italic">Note: Viscid Creates is experimental and about 85% functional.</span></p>
-			  <p style="font-style: italic; font-size: 85%">*Credit to the originators of the modified code I used is in the comments.</p>
-			  </div>
-		  </div>	
-	  </div>
-  </div>
-
-
-  <div id="About" class="w3-container section" style="display:none">
-    <h2>About</h2>
-	<div class="w3-theme w3-padding w3-card" style="font-weight: 400; font-size: 115%">
-		<p>I am a dad, an artist, a writer, a librarian, a web coder, a casual gamer, and just the right kind of neurotic that I can function as if naturally disciplined and organized.</p>
-		<p><a href="Documents/bmcfadden_resume_summer2019.pdf" target="_blank">Resume</a></p>
-	  </div>
-	  <div id="AboutDiv">
-			  <div id="projectDiv">
-				  <div class="w3-border-bottom w3-border-right w3-padding" style="margin-top: 8px">
-					  <div class="w3-padding-small"><img src="branding_icons/BC_bullet.svg" alt="BeamCreates Bullet" style="width: 10%" /></div>
-					  <p>My web coding skills include:</p>
-						<ul>
-						<li>HTML/CSS</li>
-						<li>W3-CSS &amp; Responsive Design</li>
-						<li>Javascript &amp; jQuery</li>
-						<li>PHP/MySQL with PDO</li>
-						</ul>
-					  <p>Keep an eye here at BeAm Creates for a growing collection of my work!</p>
-				  </div>
-				  <div class="w3-border-bottom w3-border-right w3-padding" style="margin-top: 8px">
-					  <div class="w3-padding-small"><img src="branding_icons/BC_bullet.svg" alt="BeamCreates Bullet" style="width: 10%" /></div>
-					  <p>I also create web graphics &amp; illustrations, with experience using the following:</p>
-						<ul>
-						<li>Adobe Photoshop</li>
-						<li>Adobe Illustrator</li>
-						<li>Autodesk Sketchbook Pro</li>
-						<li>Inkscape</li>
-						<li>Sketchup &amp; Blender for supplemental 3D graphics</li>
-						</ul>
-					  <p>Check out samples of my work at:</p>
-						 	<ul>
-								<li><a href="https://viscid07.wixsite.com/bamcfadden" target="_blank">My Wix site (a small, neat sampling)</a></li>
-								<li><a href="https://www.deviantart.com/viscid2007" target="_blank">My DeviantArt page (a large, messy sampling)</a></li>
-					  		</ul>
-					  
-				  </div>
-			  </div>	
-	  	</div>
-  </div>
-  <div id="Contact" class="w3-container section" style="display:none">
-    <h2>Contact Me!</h2>
-    <div class="w3-theme w3-padding w3-card" style="font-weight: 400; font-size: 115%">
-		<p>Contact me! Please feel free to reach out with questions about my work, my experience, and/or to discuss when it is and is not acceptable for characters in movies to break into song.</p>
-	  </div>
-	  	<div id="contactDiv">
-		<div class="w3-border-bottom w3-border-right w3-padding" style="margin-top: 8px; position: relative">
-				<div id="copied" style="display:none; position: absolute; top: 0px; leftL 0px; z-index: 3" class="w3-theme w3-padding-small w3-center w3-animate-zoom">Copied!</div>
-				<div class="w3-bar">
-					<div class="w3-bar-item">
-					<a href="#" onClick="copyText('emailText')">
-						<img src="branding_icons/email_logo.png" alt="email logo" style="width: 35px" /> 
-					</a>
-						</div>
-					<div class="w3-bar-item">
-						&nbsp;|&nbsp;
-						<input id="emailText" type="text" style="border: none;" value="viscid07@gmail.com" readonly />
-					</div>
-					<div class="w3-bar-item">
-						<div id="" class="w3-button w3-theme w3-padding-small" onClick="copyText('emailText')">Copy</div>
-					</div>
-				</div>
-			<div class="w3-bar">
-				<div class="w3-bar-item">
-				<a href="https://twitter.com/viscid2009" class="iconlink">
-					<img src="branding_icons/Twitter_Logo_White.png" alt="twitter logo" style="width: 35px; background-color: #999" />
-				</a>
-					</div>
-				<div class="w3-bar-item">
-					&nbsp;|&nbsp;
-					<a href="https://twitter.com/viscid2009">viscid2009</a>
-				</div>
-			</div>
-			<div class="w3-bar">
-				<div class="w3-bar-item">
-				<a href="https://www.facebook.com/ben.mcfadden.79" class="iconlink">
-					<img src="branding_icons/flogo-grey.png" alt="facebook logo" style="width: 35px" />
-				</a>
-				</div>
-				<div class="w3-bar-item">
-					&nbsp;|&nbsp;
-					<a href="https://www.facebook.com/ben.mcfadden.79">ben.mcfadden.79</a>
-				</div>
-			</div>
-			<div class="w3-bar">
-				<div class="w3-bar-item">
-				<a href="https://www.instagram.com/viscid2012/" class="iconlink">
-					<img src="branding_icons/glyph-logo_May2016.png" class="w3-opacity" alt="instagram logo" style="width: 35px" />
-				</a>
-				</div>
-				<div class="w3-bar-item">
-					&nbsp;|&nbsp;
-					<a href="https://www.instagram.com/viscid2012/">viscid2012</a>
-				</div>
-			</div>
-		</div>
-		</div>
-  </div>
-
-	
-
-
-	</div>
-
 <script>
-function openCity(evt, cityName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("section");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" w3-theme", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " w3-theme";
-}
-	
-// Open and close sidebar
-function w3_open() {
-  document.getElementById("sideMenu").style.display = "block";
-  document.getElementById("myOverlay").style.display = "block";
-}
- 
-function w3_close() {
-  document.getElementById("sideMenu").style.display = "none";
-  document.getElementById("myOverlay").style.display = "none";
-}
-	
-function copyText(tField) {
-  /* Get the text field */
-	
-  var tfid = tField;
-  var copyText = document.getElementById(tfid);
 
-  /* Select the text field */
-  copyText.select();
-
-  /* Copy the text inside the text field */
-  document.execCommand("copy");
-
-	//temp change text field to message
-	//textFieldMsg();
-	showAndShrink("copied");
-	
-  /* Alert the copied text */
- // alert("Copied the text: " + copyText.value);
-}
-	
-function textFieldMsg(){
-	var msgDiv = document.getElementById("copied");
-	msgDiv.style.display = "block";
-}
-
-function showAndShrink(el){
-	var elem = document.getElementById(el); 
-	elem.style.display = 'block';
-  	var sSize = 100;
-	
-	var dw = window.screen.width;
-	
-		if( dw > 600 ) {
-			var fint = dw/115;			
-		}
-		else{
-			var fint = 10;
-		}
-	
-  	var id = setInterval(frame, fint);
-  	function frame() {
-    	if (sSize < 15) {
-      		clearInterval(id);
-			elem.style.display = 'none';
-			//elem.style.height = '100%'; 
-      		elem.style.width = '100%';  
-    	} else {
-      		sSize--; 
-      	//elem.style.height = sSize + '%'; 
-      	elem.style.width = sSize + '%'; 
-    	}
-  	}
-}
 	
 </script>
 	

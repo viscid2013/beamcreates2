@@ -25,13 +25,10 @@
 
 /* Size-independent styles */
 
-	#mainLogo{
-		margin-top: 25px;
-	}
-
-	#sideMenu{
-		height: 100%;
-	}
+#mainContent {
+	margin: 0 auto;
+	border: 2px solid #ccc;
+}
 
 
 	.iconlink {
@@ -42,21 +39,7 @@
 
 @media only screen and (min-width: 993px) {
 
-	#mainLogo{
-		width: 100%;
-	}
-	
-	#mainMenu{
-		display: block;
-	}
-	
-	#sideMenu{
-		display: none;
-	}
-	
-	#topSpace{
-		margin-top: 50px;
-	}
+
 
 	
 }/* end large styles */
@@ -65,21 +48,7 @@
 
 @media only screen and (max-width: 992px) {
 
-	#mainLogo{
-		width: 100%;
-	}
-	
-	#mainMenu{
-		display: block;
-	}
-	
-	#sideMenu{
-		display: none;
-	}
-	
-	#topSpace{
-		margin-top: 50px;
-	}
+
 	
 }/* end medium styles */
 
@@ -87,17 +56,6 @@
 
 @media only screen and (max-width: 600px) {
 
-	#mainLogo{
-		width: 75%;
-		display: none;
-	}
-	
-	#mainMenu{
-		display: none;
-	}
 
-	#topSpace{
-		margin-top: 95px;
-	}
 	
 }/* end small styles */
