@@ -35,7 +35,7 @@ body{
 
 #sideNav ul{
 	list-style: none;
-	min-width: 45%;
+	width: 50%;
 }
 
 .subNav{
@@ -45,8 +45,6 @@ body{
 
 #mainContent {
 	margin: 0 auto;
-	border: 2px solid #ccc;
-	max-width: 45%;
 }
 
 
@@ -61,6 +59,10 @@ body{
 	body{
 		font-size: 150%;
 	}
+	
+#mainContent {
+	max-width: 45%;
+}
 
 
 	
