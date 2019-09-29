@@ -35,6 +35,7 @@ body{
 
 #sideNav ul{
 	list-style: none;
+	max-width: 25%;
 }
 
 #mainContent {
