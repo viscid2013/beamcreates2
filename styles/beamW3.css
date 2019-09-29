@@ -25,9 +25,18 @@
 
 /* Size-independent styles */
 
+body{
+	padding-top:100px;
+}
+
+#topBar{
+	
+}
+
 #mainContent {
 	margin: 0 auto;
 	border: 2px solid #ccc;
+	max-width: 50%;
 }
 
 
