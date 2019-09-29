@@ -38,6 +38,11 @@ body{
 	min-width: 35%;
 }
 
+.subNav{
+	margin-left: 20px;
+	font-size: 110%;
+}
+
 #mainContent {
 	margin: 0 auto;
 	border: 2px solid #ccc;
