@@ -57,13 +57,13 @@ body{
 
 /* TOP BAR - unvisited link | visited link */
 #topBar a:link, a:visited {
-  color: #9da0b2;
+  color: #e6e7ec;
   text-decoration: none;
 }
 
 /* TOP BAR - mouse over link | selected link */
 #topBar a:hover, a:active {
-  color: #e6e7ec;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -76,7 +76,7 @@ body{
 /* SIDENAV - mouse over link | selected link */
 #sideNav a:hover, a:active {
   color: #84889f;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 
