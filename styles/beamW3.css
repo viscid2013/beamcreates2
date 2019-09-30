@@ -55,25 +55,43 @@ body{
 	}
 
 /* TOP BAR - unvisited link | visited link */
-#topBar a:link, a:visited {
+#topBar a:link {
+  color: #e6e7ec !important;
+  text-decoration: none;
+}
+
+#topBar a:visited {
   color: #e6e7ec !important;
   text-decoration: none;
 }
 
 /* TOP BAR - mouse over link | selected link */
-#topBar a:hover, a:active {
+#topBar a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+#topBar a:active {
   color: #fff;
   text-decoration: none;
 }
 
+
 /* SIDENAV - unvisited link | visited link */
-#sideNav a:link, a:visited {
+#sideNav a:link{
+  color: #747892;
+  text-decoration: none;
+}
+#sideNav a:visited {
   color: #747892;
   text-decoration: none;
 }
 
 /* SIDENAV - mouse over link | selected link */
-#sideNav a:hover, a:active {
+#sideNav a:hover {
+  color: #84889f;
+  text-decoration: underline;
+}
+#sideNav a:active {
   color: #84889f;
   text-decoration: underline;
 }
