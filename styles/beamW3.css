@@ -55,6 +55,19 @@ body{
 		text-decoration: none;
 	}
 
+/* unvisited link | visited link */
+a:link, a:visited {
+  color: #747892;
+  text-decoration: none;
+}
+
+/* mouse over link | selected link */
+a:hover, a:active {
+  color: #84889f;
+  text-decoration: none;
+}
+
+
 /* Large-specific styles */
 
 @media only screen and (min-width: 993px) {
