@@ -55,15 +55,27 @@ body{
 		text-decoration: none;
 	}
 
-/* unvisited link | visited link */
-a:link, a:visited {
-  color: #747892;
+/* TOP BAR - unvisited link | visited link */
+#topBar a:link, a:visited {
+  color: #9da0b2;
   text-decoration: none;
 }
 
-/* mouse over link | selected link */
-a:hover, a:active {
-  color: #84889f;
+/* TOP BAR - mouse over link | selected link */
+#topBar a:hover, a:active {
+  color: #9da0b2;
+  text-decoration: none;
+}
+
+/* SIDENAV - unvisited link | visited link */
+#sideNav a:link, a:visited {
+  color: #e6e7ec;
+  text-decoration: none;
+}
+
+/* SIDENAV - mouse over link | selected link */
+#sideNav a:hover, a:active {
+  color: #9da0b2;
   text-decoration: none;
 }
 
