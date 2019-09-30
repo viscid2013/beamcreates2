@@ -63,7 +63,7 @@ body{
 
 /* TOP BAR - mouse over link | selected link */
 #topBar a:hover, a:active {
-  color: #9da0b2;
+  color: #e6e7ec;
   text-decoration: none;
 }
 
@@ -75,7 +75,7 @@ body{
 
 /* SIDENAV - mouse over link | selected link */
 #sideNav a:hover, a:active {
-  color: #9da0b2;
+  color: #84889f;
   text-decoration: none;
 }
 
