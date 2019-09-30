@@ -56,7 +56,7 @@ body{
 
 /* TOP BAR - unvisited link | visited link */
 #topBar a:link, a:visited {
-  color: #e6e7ec;
+  color: #e6e7ec !important;
   text-decoration: none;
 }
 
