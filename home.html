@@ -23,14 +23,13 @@ img {margin-bottom: -7px}
 <body>
 <!-- top bar -->
 <div id="topBar" class="w3-top w3-theme">
-	<a href="" style="font-size: 110%">Ben McFadden | viscid07@gmail.com</a>
+	<a href="">Ben McFadden | viscid07@gmail.com</a>
 	<a href="javascript:void(0)" class="w3-button w3-padding-16 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
 </div>
 <!-- side menu for desktop -->
 <div id="sideNav" class="w3-sidebar w3-white w3-text-gray w3-padding w3-hide-small w3-hide-medium">
 	<ul>
 		<li><a href="">Home</a></li>
-		<span onMouseOver="showSub();" onMouseOut="hideSub();" style="cursor: pointer">
 		<li>
 			<a href="">Skills &gt;</a>
 				<li class="subNav w3-text-gray w3-animate-zoom"><a href="">&#124; graphic</a></li>
@@ -38,7 +37,6 @@ img {margin-bottom: -7px}
 				<li class="subNav w3-text-gray w3-animate-zoom"><a href="">&#124; project management</a></li>				
 
 		</li>
-		</span>
 		<li><a href="">Contact</a></li>
 		<li><a href="">Career</a></li>
 	</ul>	
@@ -72,20 +70,7 @@ img {margin-bottom: -7px}
 	
 <script>
 
-function showSub(){
-	var subs = document.getElementsByClassName("subNav");
-	var subL = subs.length;
-	for( var s = 0; s < subL; s++ ){
-		subs[s].style.display = "block";
-	}
-}
-function hideSub(){
-	var subs = document.getElementsByClassName("subNav");
-	var subL = subs.length;
-	for( var s = 0; s < subL; s++ ){
-		subs[s].style.display = "none";
-	}
-}
+
 	
 	
 </script>
