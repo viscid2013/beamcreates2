@@ -81,11 +81,13 @@ img {margin-bottom: -7px}
 
 	// Open and close sidebars and modals
 function w3_open(menuid) {
-  document.getElementById(menuid).style.display = "block";
+  var menu = document.getElementById(menuid);
+	menu.classList.remove("w3-hide-small, w3-hide-medium");
 }
 
 function w3_close(menuid) {
-  document.getElementById(menuid).style.display = "none";
+  var menu = document.getElementById(menuid);
+	menu.classList.add("w3-hide-small, w3-hide-medium");
 }
 
 	
