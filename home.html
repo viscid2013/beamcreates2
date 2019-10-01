@@ -31,7 +31,7 @@ img {margin-bottom: -7px}
 <span class="w3-button w3-padding-small w3-right w3-hide-large" onClick="w3_close('sideNav')">&times;</span>
 	<ul>
 		<li><a href="javascript:void(0)">&#124;Home</a></li>
-		<li><a href="javascript:void(0)">&#124;graphic work</a></li>
+		<li><a href="javascript:void(0)" onClick="loadPage('graphic.html','updateContent')">&#124;graphic work</a></li>
 		<li><a href="javascript:void(0)">&#124;web work</a></li>
 		<li><a href="javascript:void(0)">&#124;project management</a></li>				
 		<li><a href="javascript:void(0)">&#124;Contact</a></li>
@@ -91,6 +91,24 @@ function w3_close(menuid) {
 }
 
 	
+function loadPage(url, cFunction) {
+	
+  var xhttp;
+  xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      cFunction(this);
+    }
+  };
+  xhttp.open("GET", url, true);
+  xhttp.send();
+	
+}
+
+function updateContent(xhttp){
+		var sContent = xhttp.responseText;
+	document.getElementById("mainContent").innerHTML = sContent;
+}
 	
 </script>
 	
