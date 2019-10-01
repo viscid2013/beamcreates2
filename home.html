@@ -28,7 +28,7 @@ img {margin-bottom: -7px}
 </div>
 <!-- side menu for desktop -->
 <div id="sideNav" class="w3-sidebar w3-white w3-text-gray w3-padding-small w3-hide-small w3-hide-medium w3-animate-left">
-<span class="w3-button w3-padding-small w3-right" onClick="w3_close('sideNav')">&times;</span>
+<span class="w3-button w3-padding-small w3-right w3-hide-large" onClick="w3_close('sideNav')">&times;</span>
 	<ul>
 		<li><a href="">Home</a></li>
 		<li><a href="">graphic work</a></li>
@@ -82,12 +82,12 @@ img {margin-bottom: -7px}
 	// Open and close sidebars and modals
 function w3_open(menuid) {
   var menu = document.getElementById(menuid);
-	menu.classList.remove("w3-hide-small, w3-hide-medium");
+	menu.classList.remove("w3-hide-small","w3-hide-medium");
 }
 
 function w3_close(menuid) {
   var menu = document.getElementById(menuid);
-	menu.classList.add("w3-hide-small, w3-hide-medium");
+	menu.classList.add("w3-hide-small","w3-hide-medium");
 }
 
 	
