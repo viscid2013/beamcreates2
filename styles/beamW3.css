@@ -72,11 +72,11 @@ body{
 }
 
 /* TOP BAR - mouse over link | selected link */
-#topBar a:hover {
+#topBar a:hover, #footer a:hover {
   color: #fff;
   text-decoration: none;
 }
-#topBar a:active {
+#topBar a:active, #footer a:active {
   color: #fff;
   text-decoration: none;
 }
