@@ -37,7 +37,7 @@ body{
 	height: auto;
 }
 
-#sideNav ul{
+#sideNav ul, #footer ul{
 	list-style: none;
 }
 
@@ -61,12 +61,12 @@ body{
 	}
 
 /* TOP BAR - unvisited link | visited link */
-#topBar a:link {
+#topBar a:link, #footer a:link {
   color: #e6e7ec !important;
   text-decoration: none;
 }
 
-#topBar a:visited {
+#topBar a:visited, #footer a:visited {
   color: #e6e7ec;
   text-decoration: none;
 }
