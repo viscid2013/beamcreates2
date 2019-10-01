@@ -92,18 +92,19 @@ function w3_close(menuid) {
 
 	
 function loadPage(url, cFunction) {
-	
+	var fun = cFunction;
   var xhttp;
   xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
+  xhttp.onreadystatechange = function(fun) {
     if (this.readyState == 4 && this.status == 200) {
-      cFunction(this);
+      fun(this);
     }
   };
   xhttp.open("GET", url, true);
   xhttp.send();
 	
 }
+
 
 function updateContent(xhttp){
 		var sContent = xhttp.responseText;
