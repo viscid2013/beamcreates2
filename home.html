@@ -68,7 +68,7 @@ img {margin-bottom: -7px}
 <div id="footer" class="w3-theme-l1 w3-padding w3-center">
 	<ul>
 		<li><a href="" onClick="loadPage('homeContent.html','home')">Home</a></li>
-		<li><span onClick="loadPage('graphic.html','graphics')">graphic work</span></li>
+		<li><a href="javascript:void(0)" onClick="loadPage('graphic.html','graphics')">graphic work</a></li>
 		<li><a href="javascript:void(0)">web work</a></li>
 		<li><a href="javascript:void(0)">project management</a></li>				
 		<li><a href="javascript:void(0)">Contact</a></li>
@@ -93,7 +93,7 @@ function w3_close(menuid) {
 function checkContent() {
 	var cUrl = window.location.href;
 	var content = cUrl.split("?");
-	var c = content.split("=");
+	var c = content[1].split("=");
 	var pc = c[1];
 	alert(pc);
 }
