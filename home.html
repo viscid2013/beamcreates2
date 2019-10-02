@@ -67,7 +67,7 @@ img {margin-bottom: -7px}
 
 <div id="footer" class="w3-theme-l1 w3-padding w3-center">
 	<ul>
-		<li><a href="javascript:void(0)" onClick="loadPage('homeContent.html')">Home</a></li>
+		<li><a href="javascript:void(0)" onClick="loadPage('homeContent.html','')">Home</a></li>
 		<li><a href="javascript:void(0)" onClick="loadPage('graphic.html','graphic')">graphic work</a></li>
 		<li><a href="javascript:void(0)">web work</a></li>
 		<li><a href="javascript:void(0)">project management</a></li>				
@@ -97,7 +97,7 @@ function loadPage(url,mContent) {
 	var mc;
   xhttp = new XMLHttpRequest();
 	mc = mContent;
-	alert(mc);
+	alert(mContent);
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       updateContent(this,mc);
