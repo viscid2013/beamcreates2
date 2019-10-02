@@ -68,7 +68,7 @@ img {margin-bottom: -7px}
 <div id="footer" class="w3-theme-l1 w3-padding w3-center">
 	<ul>
 		<li><a href="javascript:void(0)" onClick="loadPage('homeContent.html')">Home</a></li>
-		<li><a href="javascript:void(0)" onClick="loadPage('graphic.html')">graphic work</a></li>
+		<li><a href="javascript:void(0)" onClick="loadPage('graphic.html','graphic')">graphic work</a></li>
 		<li><a href="javascript:void(0)">web work</a></li>
 		<li><a href="javascript:void(0)">project management</a></li>				
 		<li><a href="javascript:void(0)">Contact</a></li>
@@ -91,13 +91,14 @@ function w3_close(menuid) {
 }
 
 	
-function loadPage(url) {
+function loadPage(url,page) {
 	
   var xhttp;
+	var page = page;
   xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      updateContent(this);
+      updateContent(this,page);
     }
   };
   xhttp.open("GET", url, true);
@@ -105,9 +106,12 @@ function loadPage(url) {
 	
 }
 
-function updateContent(xhttp){
+function updateContent(xhttp, page){
 		var sContent = xhttp.responseText;
+		var hostName = window.location.hostname;
 	document.getElementById("mainContent").innerHTML = sContent;
+	window.location.assign(hostName + "?page=" + page);
+	
 }
 	
 </script>
