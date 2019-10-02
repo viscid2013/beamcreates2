@@ -97,7 +97,7 @@ function loadPage(url,mContent) {
 	var mc;
   xhttp = new XMLHttpRequest();
 	mc = mContent;
-	alert(mc)''
+	alert(mc);
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       updateContent(this,mc);
