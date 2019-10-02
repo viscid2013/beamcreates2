@@ -95,7 +95,13 @@ function checkContent() {
 	var content = cUrl.split("?");
 	var c = content[1].split("=");
 	var pc = c[1];
-	alert(pc);
+	//alert(pc);
+	if(pc === 'graphics'){
+	   loadPage('graphics.html','graphics');
+	   }
+	else if( pc === 'home' || pc === '' ){
+		loadPage('homeContent.html','home');	
+		}
 }
 	
 function loadPage(url, mContent) {
