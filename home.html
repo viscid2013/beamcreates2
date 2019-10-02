@@ -94,9 +94,8 @@ function w3_close(menuid) {
 function loadPage(url,page) {
 	
   var xhttp;
-	var page = page;
   xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
+  xhttp.onreadystatechange = function(page) {
     if (this.readyState == 4 && this.status == 200) {
       updateContent(this,page);
     }
