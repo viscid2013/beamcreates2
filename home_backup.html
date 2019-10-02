@@ -91,15 +91,14 @@ function w3_close(menuid) {
 }
 
 	
-function loadPage(url,mContent) {
+function loadPage(url) {
 	
   var xhttp;
-	var mc;
+	//mC = mContent;
   xhttp = new XMLHttpRequest();
-	mc = mContent;
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      updateContent(this,mc);
+      updateContent(this);
     }
   };
   xhttp.open("GET", url, true);
@@ -109,10 +108,10 @@ function loadPage(url,mContent) {
 
 function updateContent(xhttp,mc){
 		var sContent = xhttp.responseText;
-		var whichPage = mc;
-		var hostName = window.location.hostname;
+		//var whichPage = mc;
+		//var hostName = window.location.hostname;
 	document.getElementById("mainContent").innerHTML = sContent;
-	window.location.assign("?page=" + whichPage);
+	//window.location.assign("?page=" + whichPage);
 	
 }
 	
