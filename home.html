@@ -108,9 +108,10 @@ function loadPage(url,page) {
 
 function updateContent(xhttp, page){
 		var sContent = xhttp.responseText;
+		var whichPage = page;
 		var hostName = window.location.hostname;
 	document.getElementById("mainContent").innerHTML = sContent;
-	window.location.assign(hostName + "?page=" + page);
+	window.location.assign("?page=" + whichPage);
 	
 }
 	
