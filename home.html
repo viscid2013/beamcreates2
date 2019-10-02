@@ -92,12 +92,12 @@ function w3_close(menuid) {
 
 	
 function loadPage(url,mContent) {
-	
+	alert(mContent);
   var xhttp;
 	var mc;
   xhttp = new XMLHttpRequest();
 	mc = mContent;
-	alert(mContent);
+	
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       updateContent(this,mc);
