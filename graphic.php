@@ -6,7 +6,7 @@
 <?php include("includes/topside.php");	?>
 
 <div id="mainContent" class="w3-padding w3-center" style="background-color: transparent">
-<?php include("includes/main.php");	?>	
+<?php include("includes/graphic.html");	?>	
 	</div>
 	
 <?php include("includes/footer.php");	?>

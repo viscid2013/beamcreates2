@@ -1,5 +1,5 @@
 
-	<h3>About Me (Ben McFadden) NEW!</h3>
+	<h3>About Me (Ben McFadden)</h3>
 	<div>
 		<p>I am a dad, an artist, a writer, a librarian, 
 		a web coder, a casual gamer, and just the

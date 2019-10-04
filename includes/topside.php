@@ -6,13 +6,5 @@
 <!-- side menu for desktop -->
 <div id="sideNav" class="w3-sidebar w3-white w3-text-gray w3-padding-small w3-hide-small w3-hide-medium w3-animate-left">
 <span class="w3-button w3-padding-small w3-right w3-hide-large" onClick="w3_close('sideNav')">&times;</span>
-	<ul>
-		<li><a href="javascript:void(0)">&#124;Home</a></li>
-		<li><a href="javascript:void(0)">&#124;graphic work</a></li>
-		<li><a href="javascript:void(0)">&#124;web work</a></li>
-		<li><a href="javascript:void(0)">&#124;project management</a></li>				
-		<li><a href="javascript:void(0)">&#124;Contact</a></li>
-		<li><a href="javascript:void(0)">&#124;Career</a></li>
-		<li><a href="">&#124;My Resume</a></li>
-	</ul>	
+<?php include("menu.php"); ?>
 </div>
