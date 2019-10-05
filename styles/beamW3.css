@@ -61,7 +61,28 @@ body{
 		text-decoration: none;
 	}
 
-/* TOP BAR - unvisited link | visited link */
+/* STANDARD LINKS */
+
+#mainContent a:link {
+  color: #666b82 !important;
+  text-decoration: none;
+}
+
+#mainContent a:visited {
+  color: #666b82;
+  text-decoration: none;
+}
+
+#mainContent a:hover {
+  color: #9da0b2;
+  text-decoration: none;
+}
+#mainContent a:active {
+  color: #9da0b2;
+  text-decoration: none;
+}
+
+/* TOP BAR and FOOTER links */
 #topBar a:link, #footer a:link {
   color: #e6e7ec !important;
   text-decoration: none;
@@ -72,7 +93,6 @@ body{
   text-decoration: none;
 }
 
-/* TOP BAR - mouse over link | selected link */
 #topBar a:hover, #footer a:hover {
   color: #fff;
   text-decoration: none;
