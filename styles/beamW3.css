@@ -52,6 +52,10 @@ body{
 	width: 100%;
 }
 
+.mySlides {
+	display: none;
+}
+
 /* LINK STYLES */
 	.iconlink {
 		text-decoration: none;
