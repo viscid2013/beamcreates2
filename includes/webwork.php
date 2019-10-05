@@ -7,7 +7,7 @@
 
 <body>
 	
-	<h2>Web Work</h2>
+	<h2 style="font-weight: bold;">Web Work</h2>
 
 <img src="../branding_icons/mecoding.png" alt="bearded coding" style="max-width: 50%;" />
 	<div>
