@@ -14,7 +14,7 @@
 		<p>
 		I create digital art in a variety of styles, both for personal projects and in my work with public libraries.
 		</p>
-		<p>Wake County Public Libraries</p>
+		<p class="w3-border-bottom" style="font-weight: bold">Wake County Public Libraries</p>
 		<p>
 			<div class="w3-content w3-display-container" style="width: 300px;">
 			  <img class="mySlides" src="/images/baby_brian_bkm.png" alt="baby cartoon dog" style="width:100%">
@@ -22,12 +22,12 @@
 			  <img class="mySlides" src="/images/brian_keytar.png" alt="nineteen eighties style cartoon dog" style="width:100%">
 			  <img class="mySlides" src="/images/giraffe_fox.png" alt="giraffe and fox playing board game" style="width:100%">
 
-			  <button class="w3-button w3-theme-d1 w3-display-left w3-opacity" onclick="plusDivs(-1)">&#10094;</button>
-			  <button class="w3-button w3-theme-d1 w3-display-right w3-opacity" onclick="plusDivs(1)">&#10095;</button>
+			  <button class="w3-button w3-theme-d1 w3-display-left w3-opacity" onclick="plusDivs(-1,'mySlides')">&#10094;</button>
+			  <button class="w3-button w3-theme-d1 w3-display-right w3-opacity" onclick="plusDivs(1,'mySlides')">&#10095;</button>
 			</div>
 		[links to more]
 		</p>
-		<p>Personal Projects</p>
+		<p class="w3-border-bottom" style="font-weight: bold">Personal Projects</p>
 		<p>
 		[image slideshow]
 		[links to more]
@@ -37,13 +37,13 @@
 		var slideIndex = 1;
 		showDivs(slideIndex);
 
-		function plusDivs(n) {
+		function plusDivs(n,slideshow) {
 		  showDivs(slideIndex += n);
 		}
 
-		function showDivs(n) {
+		function showDivs(n,slideshow) {
 		  var i;
-		  var x = document.getElementsByClassName("mySlides");
+		  var x = document.getElementsByClassName(slideshow);
 		  if (n > x.length) {slideIndex = 1}
 		  if (n < 1) {slideIndex = x.length}
 		  for (i = 0; i < x.length; i++) {
