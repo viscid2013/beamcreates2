@@ -14,36 +14,40 @@
 		<p>
 		I create digital art in a variety of styles, both for personal projects and in my work with public libraries.
 		</p>
-		<p class="w3-border-bottom" style="font-weight: bold">Wake County Public Libraries</p>
 		<p>
 			<div class="w3-content w3-display-container" style="width: 300px;">
 			  <img class="mySlides" src="/images/baby_brian_bkm.png" alt="baby cartoon dog" style="width:100%">
-			  <img class="mySlides" src="/images/brian_construction.png" alt="cartoon dog construction worker" style="width:100%">
-			  <img class="mySlides" src="/images/brian_keytar.png" alt="nineteen eighties style cartoon dog" style="width:100%">
-			  <img class="mySlides" src="/images/giraffe_fox.png" alt="giraffe and fox playing board game" style="width:100%">
+				<img class="mySlides" src="../images/ana_yang.png" alt="yin yang portrait circle" style="width:100%">
+				<img class="mySlides" src="../images/skeleton_cowboy.png" alt="cute battle ninjas" style="width:100%">
+				<img class="mySlides" src="../images/skeleKid.png" alt="skeleton kid dressed as human for halloween" style="width:100%">
+				<img class="mySlides" src="../images/stylized_wrestler.png" alt="cartoon wrestler" style="width:100%">
+				<img class="mySlides" src="../images/imp.png" alt="demon imp silhouette" style="width:100%">
+				<img class="mySlides" src="../images/owltree.png" alt="family of owls in tree" style="width:100%">
+				<img class="mySlides" src="../images/raven_symbol.png" alt="raven symbol" style="width:100%">
+			  	<img class="mySlides" src="/images/brian_construction.png" alt="cartoon dog construction worker" style="width:100%">
+			  	<img class="mySlides" src="/images/brian_keytar.png" alt="nineteen eighties style cartoon dog" style="width:100%">
+			  	<img class="mySlides" src="/images/giraffe_fox.png" alt="giraffe and fox playing board game" style="width:100%">
+				<img class="mySlides" src="../images/cute_battle_ninjas.png" alt="cute battle ninjas" style="width:100%">
 
-			  <button class="w3-button w3-theme-d1 w3-display-left w3-opacity" onclick="plusDivs(-1,'mySlides')">&#10094;</button>
-			  <button class="w3-button w3-theme-d1 w3-display-right w3-opacity" onclick="plusDivs(1,'mySlides')">&#10095;</button>
+			  <button class="w3-button w3-theme-d1 w3-display-left w3-opacity" onclick="plusDivs(-1)">&#10094;</button>
+			  <button class="w3-button w3-theme-d1 w3-display-right w3-opacity" onclick="plusDivs(1)">&#10095;</button>
 			</div>
-		[links to more]
-		</p>
-		<p class="w3-border-bottom" style="font-weight: bold">Personal Projects</p>
-		<p>
-		[image slideshow]
-		[links to more]
+		<div class="w3-padding-small w3-center">To see more of my work:</div>
+		<div class="w3-padding-small w3-center"><a href="https://viscid07.wixsite.com/bamcfadden">Design | Imagery by BA McFadden</a><br />(small, organized collection)</div>
+		<div class="w3-padding-small w3-center"><a href="https://viscid07.wixsite.com/bamcfadden">My DeviantArt Page</a><br />(large, random collection)</div>
 		</p>
 	</div>
 		<script>
 		var slideIndex = 1;
 		showDivs(slideIndex);
 
-		function plusDivs(n,slideshow) {
-		  showDivs(slideIndex += n,slideshow);
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
 		}
 
-		function showDivs(n,slideshow) {
+		function showDivs(n) {
 		  var i;
-		  var x = document.getElementsByClassName(slideshow);
+		  var x = document.getElementsByClassName("mySlides");
 		  if (n > x.length) {slideIndex = 1}
 		  if (n < 1) {slideIndex = x.length}
 		  for (i = 0; i < x.length; i++) {
