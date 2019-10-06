@@ -14,7 +14,7 @@
 		<p>
 		I create web interfaces using HTML/Responsive CSS with MySQL/PHP-PDO and Javascript/jQuery. I did much of my early coding work as a Digital Librarian with Wake County Public Libraries, before taking on a management and administration role overseeing the department whose work includes handling WCPL's web presence. I am in the process of working on personal projects to deepen and enhance my knowledge and skills in these areas.
 		</p>
-		<p class="w3-padding-small w3-border-bottom w3-text-theme" style="font-weight: bold;">Personal Projects</p>
+		<h3 class="w3-padding-small w3-border-bottom w3-border-top w3-text-theme" style="font-weight: bold;">Personal Projects</h3>
 			<p style="font-style: italic; font-weight: bold;">Current Experimental Projects:</p>
 				<p><a href=""><img src="../branding_icons/vc_logotype.svg" alt="viscid creates logo" style="width: 85%;" /></a></p>
 				<p>Summary:</p>
@@ -48,18 +48,46 @@
 					<p>As you will read below, I created an interface to manage a Teen Poetry Contest several years ago. While it served its purpose, it could have been a lot more, so I would like to have a go at creating it as it could have been.</p>
 
 		
-		<p class="w3-padding-small w3-border-bottom w3-text-theme" style="font-weight: bold;">Web Work with the Public Libraries</p>
+		<h3 class="w3-padding-small w3-border-bottom w3-border-top w3-text-theme" style="font-weight: bold;">Web Work with the Public Libraries</h3>
 			<p style="font-style: italic; font-weight: bold;">Part 1: Discontinued but still viewable/partly functional interfaces:</p>
 				<p class="w3-padding-small w3-border-bottom w3-text-theme"><a href="http://digwebcode.wakegov.com/src/SAP/suggest_form_hx.php?showSecretForm=yes">&#124;Suggest a Purchase System&#124;</a></p>
-				<p>I built the Suggest a Purchase System to manage purchase recommendations from library patrons.</p>
-				<p>The front end includes an entry form for the suggestions that uses the Google Books API to pull author and title information using the ISBN as well as an ODBC connection to the Intergrated Library System database to check whether or not the item is already owned by the libraries.</p>
-				<p>On the staff side, the stored requests are displayed in a table for viewing and editing. When the status of an item is changed to indicate whether or not it will be purchased, a relevant email message is automatically sent to the requesting patrons.</p>
-				<p>NOTE: We recently transitioned the Suggest a Purchase system to a module built into our vendor-provided online catalog. This does mean some loss of customization, but it creates a more unified experience and less maintenance work for me!</p>
+						<p>Summary:</p>
+							<p>I built the Suggest a Purchase System to manage purchase recommendations from library patrons.</p>
+						<p>Code:</p>
+							<ul>
+							<li>HTML, CSS, and Javascript</li>
+							<li>PHP/MySQL </li>
+							<li>ODBC Connection to the Horizon Integrated Library System</li>
+							<li>Google Books API integration</li>
+							</ul>
+						<p>Core Features:</p>
+							<ul>
+							<li>Suggest a Purchase form to allow materials purchase recommendations from patrons.</li>
+							<li>ODBC connection ILS allows check via ISBN if library already owns title.</li>
+							<li>Google Books API integration uses ISBN to pull author/title info for verification.</li>
+							<li>Staff interface to view and update requests.</li>
+							<li>Automated email messages specific to request status sent on status change to requesting users.</li>
+							</ul>
+						<p>Notes:</p>
+							<p>We recently transitioned the Suggest a Purchase system to a module built into our vendor-provided online catalog. This does mean some loss of customization, but it creates a more unified experience and less maintenance work for me!</p>
 				<p class="w3-padding-small w3-border-bottom w3-text-theme"><a href="http://digwebcode.wakegov.com/pr/prform.php">&#124;PR Request System&#124;</a></p>
-				<p>I created the PR Request System to manage marketing requests for library events and programs from library managers.</p>
-				<p>On the front end is the PR Request Form, which solicits the relevant information about the event or program, including times and locations (with the ability to add additional time/location fields as needed), contact info, summaries, program type, etc.</p>
-				<p>For the back end, to display the requests, I created a PR Calendar that I custom-built with PHP and Javascript. (I don't plan to attempt again anytime soon! It 95% works, but there were always some quirks.) Additionally, I created a searchable table to display the requests. Both interfaces allowed a means to click into the details of a request to view and edit as needed.</p>
-				<p>NOTE: As with the Suggest a Purchase System, my switch to management and administrative duties left me unable to keep the PR Request system properly updated and maintained, so we switched to using a system created in Microsoft Sharepoint by our County IS department. I migrated the PR Request System to a new server with a newer version of PHP, so while the historical instance still works, mostly, it has some issues. &#58;&#41;</p>
+					<p>Summary:</p>
+							<p>I created the PR Request System to manage marketing requests for library events and programs from library managers.</p>
+						<p>Code:</p>
+							<ul>
+							<li>HTML, CSS, and Javascript/jQuery</li>
+							<li>PHP/MySQL </li>
+							</ul>
+						<p>Core Features:</p>
+							<ul>
+							<li>PR Request Form, which solicits the relevant information about the event, including times and locations, contact info, summaries, program type, etc.</li>
+							<li>PR Calendar to display/access results on specified dates, custom-built with PHP and Javascript. (I don't plan to attempt that again anytime soon! It 95% works, but there were always some quirks.)</li>
+							<li>I created a searchable table display of stored requests.</li>
+							<li>Event detail pages for viewing editing particulars.</li>
+							</ul>
+						<p>Notes:</p>
+							<p>As with the Suggest a Purchase System, my switch to management and administrative duties left me unable to keep the PR Request system properly updated and maintained, so we switched to using a system created in Microsoft Sharepoint by our County IS department. I migrated the PR Request System to a new server with a newer version of PHP, so while the historical instance still works, mostly, it has some issues. &#58;&#41;</p>
+		
 			<p style="font-style: italic; font-weight: bold;">Part 2: Discontinued but no longer existing or no longer functioning:</p>
 				<p class="w3-padding-small w3-border-bottom w3-text-theme">&#91;Teen Poetry Contest System&#93;</p>
 					<p>The Teen Poetry Contest was being tracked on a gigantic spreadsheet, and I think maybe there was a big binder involved? In any case, it was time to go online with the contest, so I created a form that integrated an existing WYSIWYG editor module, and a system for the judges to view and rate the poems behind the scenes. Once the winners were selected, those poems could be marked for display on the library website. This one did a lot of cool stuff, even if I would be embarrassed for anyone to see the actual code. It would be like someone looking in the closets of my apartment. It's not pretty.</p>
