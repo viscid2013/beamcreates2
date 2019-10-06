@@ -20,7 +20,7 @@
 				<p>Summary:</p>
 					<p>Viscid Creates is an experimental online graphics portfolio and store created as a testing and learning ground for refining and practicing my skills.</p>
 				<p>Code:</p>
-					<ul>
+					<ul class="w3-left">
 					<li>HTML and W3-CSS for responsive design</li>
 					<li>Plain Javascript (mostly, see notes) for DOM manipulation and enhanced funtionality</li>
 					<li>PHP with PDO/MySQL</li>
