@@ -39,6 +39,10 @@ body{
 	list-style: none;
 }
 
+#mainContent ul {
+	text-align: left !important;
+}
+
 .subNav{
 	margin-left: 20px;
 	font-size: 80%;
