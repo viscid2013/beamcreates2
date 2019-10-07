@@ -90,13 +90,50 @@
 		
 			<p class="" style="font-style: italic; font-weight: bold;">Part 2: Discontinued but no longer existing or no longer functioning:</p>
 				<p class="w3-padding-small"><img src="../web_images/wcpl_tp.png" alt="wcpl teen poetry contest logo" /></p>
-					<p>WCPL's Teen Poetry Contest was originally tracked on a gigantic spreadsheet. I think maybe there was a big binder involved? In any case, it was time to go online, so I created a form that integrated a WYSIWYG editor and a system for the judges to view and rate the poems. Once the winners were selected, those poems could be marked for display on the library website.</p>
-					<p>This one did a lot of cool stuff, even if I would be embarrassed for anyone to see the actual code. &#58;&#124;</p>
+					<p>Summary:</p>
+							<p>I created the Teen Poetry Contest site to manage poetry submissions for an annual library teen poetry contest.</p>
+						<p>Code:</p>
+							<ul>
+							<li>HTML, CSS, and Javascript/jQuery</li>
+							<li>PHP/MySQL </li>
+							<li>Open source WYSIWYG editor plugin.</li>
+							</ul>
+						<p>Core Features:</p>
+							<ul>
+							<li>A poem submission form that integrated a WYSIWYG editor.</li>
+							<li>A back end system for judges to organize, view, and rate submissions.</li>
+							<li>Individual logins with specific permissions for contest admins, staff judges, and volunteer judges. Judges could only view the poems for the age category they were judging, and could only see their own ratings.</li>
+							<li>Once the winners were selected, those poems could be marked for display on the library website.</li>
+							</ul>
+						<p>Notes:</p>
+							<ul>
+							<li>WCPL's Teen Poetry Contest was originally tracked on a gigantic spreadsheet. I think maybe there was a big binder involved?</li>
+							<li>This one did a lot of cool stuff, even if I would be embarrassed for anyone to see the actual code. &#58;&#124;</li>
+							<li>As you'll see above, an upcoming personal project is an attempt at what the Teen Poetry Contest could have been, a site I will be calling Verses/Versus. (It makes more sense in logo form.)</li>
+							</ul>
+
 				<p class="w3-padding-small"><img src="../web_images/wcpl_get.png" alt="wcpl getterizer logo" /></p>
-					<p>This was one of the first interfaces I built in my work with Wake County Public Libraries. We wanted to offer the librarians a way to easily create reading lists for display online. Prior to this, the lists were created in Publisher and converted to PDF's for manual upload to the website. This was labor-intensive and not user-friendly.</p>
-					<p>The Getterizer allowed the library staff to paste one or more ISBN numbers into a form field to automatically generate a list of titles, with cover, author, and summaries pulled using an API. The list info was stored in a database so that the lists could be displayed by category on the library website.</p>
-					<p>The lists started as fairly simple, web-appropriate affairs, but evolved to include some level of customizable styling for printing. I really enjoyed my work on the Getterizer (and was very proud of the name, of course), but once our online catalog evolved to allow the creation of integrated, custom lists, the Getterizer sadly became irrelevant, and faded into obscurity. Rest in Peace, Getterizer.</p>
-		
+					<p>Summary:</p>
+							<p>I created the Getterizer to offer the librarians a way to easily create reading lists for display online.</p>
+						<p>Code:</p>
+							<ul>
+							<li>HTML, CSS, and Javascript/jQuery</li>
+							<li>PHP/MySQL </li>
+							<li>Open source API to fetch book info via ISBN</li>
+							</ul>
+						<p>Core Features:</p>
+							<ul>
+							<li>A form that accepted entry of one or more ISBNs to generate and store a list of titles with cover, author, and summary info using an open source API.</li>
+							<li>The list info was stored in a database so that the lists could be displayed by category (chosen in the submission process) on the library website.</li>
+							<li>The lists started as fairly simple, web-appropriate affairs, but evolved to include a basic level of customizable styling for printing.</li>
+							</ul>
+						<p>Notes:</p>
+							<ul>
+							<li>This was one of the first interfaces I built in my work with Wake County Public Libraries.</li>
+							<li>Prior to this, the lists were created in Publisher and converted to PDF's for manual upload to the website. This was labor-intensive and not user-friendly.</li>
+							<li>The name "Getterizer" was part of a trend of silly naming in the Digital Library department, likely influenced by a certain mad scientist whose arch enemy is a secret agent platypus.</li>
+							<li>I really enjoyed my work on the Getterizer, but once our online catalog evolved to allow the creation of integrated, custom lists, the Getterizer sadly became irrelevant, and faded into obscurity. Rest in Peace, Getterizer.</li>
+							</ul>
 
 	</div>
 	
