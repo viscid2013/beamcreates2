@@ -90,8 +90,7 @@
 		
 			<p class="" style="font-style: italic; font-weight: bold;">Part 2: Discontinued but no longer existing or no longer functioning:</p>
 				<p class="w3-padding-small"><img src="../web_images/wcpl_tp.png" alt="wcpl teen poetry contest logo" /></p>
-					<p>WCPL's Teen Poetry Contest was originally tracked on a gigantic spreadsheet. I think maybe there was a big binder involved? In any case, it was time to go online, so I created a form that integrated a WYSIWYG editor and a system for the judges to view and rate the poems</p>
-					<p>Once the winners were selected, those poems could be marked for display on the library website.</p>
+					<p>WCPL's Teen Poetry Contest was originally tracked on a gigantic spreadsheet. I think maybe there was a big binder involved? In any case, it was time to go online, so I created a form that integrated a WYSIWYG editor and a system for the judges to view and rate the poems. Once the winners were selected, those poems could be marked for display on the library website.</p>
 					<p>This one did a lot of cool stuff, even if I would be embarrassed for anyone to see the actual code. &#58;&#124;</p>
 				<p class="w3-padding-small"><img src="../web_images/wcpl_get.png" alt="wcpl getterizer logo" /></p>
 					<p>This was one of the first interfaces I built in my work with Wake County Public Libraries. We wanted to offer the librarians a way to easily create reading lists for display online. Prior to this, the lists were created in Publisher and converted to PDF's for manual upload to the website. This was labor-intensive and not user-friendly.</p>
