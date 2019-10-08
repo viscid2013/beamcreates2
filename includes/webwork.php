@@ -43,14 +43,14 @@
 					</ul>
 
 			<p style="font-style: italic; font-weight: bold;">Upcoming Experimental Projects:</p>
-				<p><img src="../web_images/versusLogoSVG.svg" alt="versus-verses logo" style="max-width: 50%;" /></p>
+				<p><img src="../web_images/versusLogoSVG.svg" alt="versus-verses logo" style="max-width: 60%;" /></p>
 					<p>Summary:</p>
 					<p>As you will read below, I created an interface to manage a Teen Poetry Contest several years ago. While it served its purpose, it could have been a lot more, so I would like to have a go at creating it as it could have been.</p>
 
 		
 		<h3 class="w3-padding-small w3-border-bottom w3-border-top w3-text-theme" style="font-weight: bold;">Web Work with the Public Libraries</h3>
 			<p style="font-style: italic; font-weight: bold;">Part 1: Discontinued but still viewable/partly functional interfaces:</p>
-				<p class="w3-padding-small w3-text-theme"><a href="http://digwebcode.wakegov.com/src/SAP/suggest_form_hx.php?showSecretForm=yes"><img src="../web_images/wcpl_sap.png" alt="wcpl suggest a purchase logo" style="max-width: 50%;" /></a></p>
+				<p class="w3-padding-small w3-text-theme"><a href="http://digwebcode.wakegov.com/src/SAP/suggest_form_hx.php?showSecretForm=yes"><img src="../web_images/wcpl_sap.png" alt="wcpl suggest a purchase logo" style="max-width: 100%;" /></a></p>
 						<p>Summary:</p>
 							<p>I built the Suggest a Purchase System to manage purchase recommendations from library patrons.</p>
 						<p>Code:</p>
@@ -70,7 +70,7 @@
 							</ul>
 						<p>Notes:</p>
 							<p>We recently transitioned the Suggest a Purchase system to a module built into our vendor-provided online catalog. This does mean some loss of customization, but it creates a more unified experience and less maintenance work for me!</p>
-				<p class="w3-padding-small w3-text-theme"><a href="http://digwebcode.wakegov.com/pr/prform.php"><img src="../web_images/wcpl_pr.png" alt="wcpl pr request logo" style="max-width: 50%;" /></a></p>
+				<p class="w3-padding-small w3-text-theme"><a href="http://digwebcode.wakegov.com/pr/prform.php"><img src="../web_images/wcpl_pr.png" alt="wcpl pr request logo" style="max-width: 100%;" /></a></p>
 					<p>Summary:</p>
 							<p>I created the PR Request System to manage marketing requests for library events and programs from library managers.</p>
 						<p>Code:</p>
@@ -89,7 +89,7 @@
 							<p>As with the Suggest a Purchase System, my switch to management and administrative duties left me unable to keep the PR Request system properly updated and maintained, so we switched to using a system created in Microsoft Sharepoint by our County IS department. I migrated the PR Request System to a new server with a newer version of PHP, so while the historical instance still works, mostly, it has some issues. &#58;&#41;</p>
 		
 			<p class="" style="font-style: italic; font-weight: bold;">Part 2: Discontinued but no longer existing or no longer functioning:</p>
-				<p class="w3-padding-small"><img src="../web_images/wcpl_tp.png" alt="wcpl teen poetry contest logo" style="max-width: 50%;" /></p>
+				<p class="w3-padding-small"><img src="../web_images/wcpl_tp.png" alt="wcpl teen poetry contest logo" style="max-width: 100%;" /></p>
 					<p>Summary:</p>
 							<p>I created the Teen Poetry Contest site to manage poetry submissions for an annual library teen poetry contest.</p>
 						<p>Code:</p>
@@ -112,7 +112,7 @@
 							<li>As you'll see above, an upcoming personal project is an attempt at what the Teen Poetry Contest could have been, a site I will be calling Verses/Versus. (It makes more sense in logo form.)</li>
 							</ul>
 
-				<p class="w3-padding-small"><img src="../web_images/wcpl_get.png" alt="wcpl getterizer logo" style="max-width: 50%;" /></p>
+				<p class="w3-padding-small"><img src="../web_images/wcpl_get.png" alt="wcpl getterizer logo" style="max-width: 100%;" /></p>
 					<p>Summary:</p>
 							<p>I created the Getterizer to offer the librarians a way to easily create reading lists for display online.</p>
 						<p>Code:</p>
