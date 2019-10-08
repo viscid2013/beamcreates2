@@ -43,7 +43,7 @@
 					</ul>
 
 			<p style="font-style: italic; font-weight: bold;">Upcoming Experimental Projects:</p>
-				<p><img src="../web_images/versus_logo.png" alt="versus-verses logo" /></p>
+				<p><img src="../web_images/versus_logoSVG.svg" alt="versus-verses logo" /></p>
 					<p>Summary:</p>
 					<p>As you will read below, I created an interface to manage a Teen Poetry Contest several years ago. While it served its purpose, it could have been a lot more, so I would like to have a go at creating it as it could have been.</p>
 
@@ -63,7 +63,7 @@
 						<p>Core Features:</p>
 							<ul>
 							<li>Suggest a Purchase form to allow materials purchase recommendations from patrons.</li>
-							<li>ODBC connection ILS allows check via ISBN if library already owns title.</li>
+							<li>ODBC connection to the ILS allows check via ISBN if library already owns title.</li>
 							<li>Google Books API integration uses ISBN to pull author/title info for verification.</li>
 							<li>Staff interface to view and update requests.</li>
 							<li>Automated email messages specific to request status sent on status change to requesting users.</li>
