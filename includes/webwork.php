@@ -43,7 +43,7 @@
 					</ul>
 
 			<p style="font-style: italic; font-weight: bold;">Upcoming Experimental Projects:</p>
-				<p><img src="../web_images/versus_logoSVG.svg" alt="versus-verses logo" /></p>
+				<p><img src="../web_images/versusLogoSVG.svg" alt="versus-verses logo" /></p>
 					<p>Summary:</p>
 					<p>As you will read below, I created an interface to manage a Teen Poetry Contest several years ago. While it served its purpose, it could have been a lot more, so I would like to have a go at creating it as it could have been.</p>
 
