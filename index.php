@@ -10,7 +10,7 @@
 	</div>
 	
 <?php include("includes/footer.php");	?>
-	
+	<div class="w3-padding-small w3-text-theme" id="scrollTop">TOP!</div>
 <?php include("includes/beamscript.php");	?>
 	
 </body>
