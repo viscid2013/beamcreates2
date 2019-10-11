@@ -10,7 +10,7 @@
 	</div>
 	
 <?php include("includes/footer.php");	?>
-	<div class="w3-padding-small w3-text-theme" id="scrollTop">TOP!</div>
+	
 <?php include("includes/beamscript.php");	?>
 	
 </body>
@@ -18,7 +18,7 @@
 <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links
-  $("#scrollTop").on('click', function(event) {
+  $(".scrollTop").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
