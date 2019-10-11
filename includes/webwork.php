@@ -15,7 +15,7 @@
 		I create web interfaces using HTML/Responsive CSS with MySQL/PHP-PDO and Javascript/jQuery. I did much of my early coding work as a Digital Librarian with Wake County Public Libraries, before taking on a management and administration role overseeing the department whose work includes handling WCPL's web presence. I am in the process of working on personal projects to deepen and enhance my knowledge and skills in these areas.
 		</p>
 		<h3 class="w3-padding-small w3-border-bottom w3-border-top w3-text-theme" style="font-weight: bold;">Personal Projects</h3>
-			<p style="font-style: italic; font-weight: bold;">Current Experimental Projects:</p>
+			<p class="w3-border-bottom w3-padding-small" style="font-style: italic; font-weight: bold;">Current Experimental Projects:</p>
 				<p><a href=""><img src="../branding_icons/vc_logotype.svg" alt="viscid creates logo" style="width: 75%;" /></a></p>
 				<p class="w3-border-bottom w3-padding-small">Summary:</p>
 					<p>Viscid Creates is an experimental online graphics portfolio and store created as a testing and learning ground for refining and practicing my skills.</p>
@@ -42,14 +42,14 @@
 					<li>All test images are my own work.</li>
 					</ul>
 
-			<p style="font-style: italic; font-weight: bold;">Upcoming Experimental Projects:</p>
+			<p class="w3-border-bottom w3-padding-small" style="font-style: italic; font-weight: bold;">Upcoming Experimental Projects:</p>
 				<p><img src="../web_images/versusLogoSVG.svg" alt="versus-verses logo" style="max-width: 60%;" /></p>
 					<p>Summary:</p>
 					<p>As you will read below, I created an interface to manage a Teen Poetry Contest several years ago. While it served its purpose, it could have been a lot more, so I would like to have a go at creating it as it could have been.</p>
 
 		
 		<h3 class="w3-padding-small w3-border-bottom w3-border-top w3-text-theme" style="font-weight: bold;">Web Work with the Public Libraries</h3>
-			<p style="font-style: italic; font-weight: bold;">Part 1: Discontinued but still viewable/partly functional interfaces:</p>
+			<p class="w3-border-bottom w3-padding-small" style="font-style: italic; font-weight: bold;">Part 1: Discontinued but still viewable/partly functional interfaces:</p>
 				<p class="w3-padding-small w3-text-theme"><a href="http://digwebcode.wakegov.com/src/SAP/suggest_form_hx.php?showSecretForm=yes"><img src="../web_images/wcpl_sap.png" alt="wcpl suggest a purchase logo" style="max-width: 100%;" /></a></p>
 						<p class="w3-border-bottom w3-padding-small">Summary:</p>
 							<p>I built the Suggest a Purchase System to manage purchase recommendations from library patrons.</p>
@@ -88,7 +88,7 @@
 						<p class="w3-border-bottom w3-padding-small">Notes:</p>
 							<p>As with the Suggest a Purchase System, my switch to management and administrative duties left me unable to keep the PR Request system properly updated and maintained, so we switched to using a system created in Microsoft Sharepoint by our County IS department. I migrated the PR Request System to a new server with a newer version of PHP, so while the historical instance still works, mostly, it has some issues. &#58;&#41;</p>
 		
-			<p class="" style="font-style: italic; font-weight: bold;">Part 2: Discontinued but no longer existing or no longer functioning:</p>
+			<p class="w3-border-bottom w3-padding-small" style="font-style: italic; font-weight: bold;">Part 2: Discontinued but no longer existing or no longer functioning:</p>
 				<p class="w3-padding-small"><img src="../web_images/wcpl_tp.png" alt="wcpl teen poetry contest logo" style="max-width: 100%;" /></p>
 					<p class="w3-border-bottom w3-padding-small">Summary:</p>
 							<p>I created the Teen Poetry Contest site to manage poetry submissions for an annual library teen poetry contest.</p>
