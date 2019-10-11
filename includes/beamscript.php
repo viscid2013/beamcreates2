@@ -7,6 +7,7 @@
 $(document).ready(function(){
   // Add smooth scrolling to all links
   $(".scrollTop").on('click', function(event) {
+	  alert("hello?");
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
