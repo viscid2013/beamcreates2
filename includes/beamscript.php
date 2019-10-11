@@ -28,7 +28,6 @@ $(document).ready(function(){
     } // End if
   });
 });
-</script>
 	
 	/* END jQuery for scrollTop */
 	
