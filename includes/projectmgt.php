@@ -16,15 +16,15 @@
 		</p>
 		<h3 class="w3-padding-small w3-border-bottom w3-border-top w3-text-theme" style="font-weight: bold;">Wake County Public Libraries Projects</h3>
 			<p style="font-style: italic; font-weight: bold;">Transfer of Library Servers to County Datacenter</p>
-				<p style="text-decoration: underline">My role: </p>
+				<p class="w3-border-bottom w3-padding-small">My role: </p>
 				<p>Project lead for Library IT</p>
-				<p style="text-decoration: underline">Other roles:</p>
+				<p class="w3-border-bottom w3-padding-small">Other roles:</p>
 				<ul>
 					<li>Project lead for Wake County IS Server Team</li>
 					<li>Project/technical advisors for Wake County IS</li>
 					<li>Project/technical advisors for Library IT and Library ILS (Integrated Library System)</li>
 				</ul>
-				<p style="text-decoration: underline">Summary: </p>
+				<p class="w3-border-bottom w3-padding-small">Summary: </p>
 					<p>The small datacenter at the library administration building that housed the library servers was aging, lacking robust data and power backup. Additionally, with staffing levels in Library IT, it was difficult to properly integrate the servers with the workflow and update processes of County IS, this fully benefit from the established broader server ecosystem. We reached out to County IS to explore transferring the library servers to the County's main datacenter, where they could be integrated into the main workflow of updates and patching, and benefit from the more robust power and data backups.</p>
 					<p>What started out as a daunting task ended up as a great success, and a stellar example of teamwork! Everyone involved brought their expertise and creativity to bear, and we systematically evaluated and addressed each challenge and step of the process. What hiccups arose were handled calmly, and the new environment has been running smoothly for a few years. No longer does a power outage require a scramble to safely bring down the library servers!</p>
 	
