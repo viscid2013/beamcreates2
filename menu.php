@@ -5,6 +5,6 @@
 		<li><a href="project.php">&#124;project management</a></li>				
 		<!--<li><a href="contact.php">Contact</a></li>-->
 		<li><a href="career.php">&#124;Career</a></li>
-		<li><a href="Documents/resume.pdf">&#124;My Resume</a></li>
+		<li><a href="Documents/resume.pdf" target="_blank">&#124;My Resume</a></li>
 	</ul>
 
