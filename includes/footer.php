@@ -2,4 +2,4 @@
 <?php include("menu.php"); ?>	
 </div>
 
-<div class="w3-padding-small scroll-top"><img src="../branding_icons/top.svg" alt="scroll to top arrow" /></div>
+<div class="w3-padding-small scroll-top"><img src="../branding_icons/top.png" alt="scroll to top arrow" /></div>
