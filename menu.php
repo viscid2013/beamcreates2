@@ -8,4 +8,3 @@
 		<li><a href="Documents/resume.pdf">&#124;My Resume</a></li>
 	</ul>
 
-<!--<div class="w3-padding-small w3-text-theme scrollTop">TOP!</div>-->
